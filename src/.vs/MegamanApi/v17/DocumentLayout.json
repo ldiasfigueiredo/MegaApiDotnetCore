@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|l:\\sources\\repos\\curso ia dio\\megaapidotnetcore\\src\\controllers\\robotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|solutionrelative:controllers\\robotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|l:\\sources\\repos\\curso ia dio\\megaapidotnetcore\\src\\database\\repositories\\robots\\mockrobotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|solutionrelative:database\\repositories\\robots\\mockrobotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|l:\\sources\\repos\\curso ia dio\\megaapidotnetcore\\src\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|l:\\sources\\repos\\curso ia dio\\megaapidotnetcore\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|l:\\sources\\repos\\curso ia dio\\megaapidotnetcore\\src\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|l:\\sources\\repos\\curso ia dio\\megaapidotnetcore\\src\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4845CDC-2151-4D07-A205-60C2B6E72F62}|MegamanApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MockRobotRepository.cs",
+              "DocumentMoniker": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\Database\\Repositories\\Robots\\MockRobotRepository.cs",
+              "RelativeDocumentMoniker": "Database\\Repositories\\Robots\\MockRobotRepository.cs",
+              "ToolTip": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\Database\\Repositories\\Robots\\MockRobotRepository.cs",
+              "RelativeToolTip": "Database\\Repositories\\Robots\\MockRobotRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:50:54.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-06T22:41:31.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "global.json",
+              "DocumentMoniker": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\global.json",
+              "RelativeDocumentMoniker": "global.json",
+              "ToolTip": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\global.json",
+              "RelativeToolTip": "global.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-06T22:41:19.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:41:03.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-06T22:40:54.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RobotsController.cs",
+              "DocumentMoniker": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\Controllers\\RobotsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RobotsController.cs",
+              "ToolTip": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\Controllers\\RobotsController.cs",
+              "RelativeToolTip": "Controllers\\RobotsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:31:18.472Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

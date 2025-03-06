@@ -1,150 +1,132 @@
-<h1 align="center">
-  <br />
-  <img
-    src="./_docs/assets/icon.png"
-    alt="Mega Man Robots API"
-    width="150"
-  />
-  <br />
-  <b>Mega Man Robots API</b>
-  <br />
-  <sub
-    ><sup><b>(MEGA-MAN-ROBOTS)</b></sup></sub
-  >
-  <br />
-  <a
-    href="https://github.com/felipeAguiarCode/MegaApiDotnetCore/actions/workflows/build.yml"
-  >
-    <img
-      src="https://github.com/felipeAguiarCode/MegaApiDotnetCore/actions/workflows/build.yml/badge.svg"
-      alt=""
-    />
-  </a>
-  <a href="https://github.com/felipeAguiarCode/MegaApiDotnetCore/releases/latest">
-    <img
-      src="https://img.shields.io/github/v/release/felipeAguiarCode/MegaApiDotnetCore"
-      alt="Latest Release"
-    />
-  </a>
-</h1>
+# 🤖 Robots API - MegaMan Bosses
 
-<p align="center">
-  This .NET Core API is designed to serve JSON formatted data about bosses from
-  the Mega Man series. It is a backend service built with .NET Core 3.1 and
-  various modern dependencies for data management and API response handling.
-  <br />
-</p>
+## 📖 Descrição
+A **Robots API** é uma API RESTful desenvolvida em **ASP.NET Core 3.1**, dedicada a fornecer dados dos icônicos **Bosses do universo MegaMan**.  
+Com essa API, é possível:
 
-<p align="center">
-  Developed with Entity Framework Core and other modern .NET technologies, this
-  project aims to provide a robust API for accessing Mega Man robot data.
-  <br />
-</p>
+- 🔍 Listar todos os Bosses cadastrados
+- 📋 Consultar detalhes específicos de um Boss pelo seu identificador
+- 📤 Enviar dados para cadastro de novos Bosses (em desenvolvimento)
 
-<p align="center">
-  <br />
-  <img src="./_docs/assets/carbon.png" />
-</p>
+---
 
-## API Endpoints
+## 🎮 Contexto
+Esta API foi criada para servir como uma base de consulta sobre os chefes (Bosses) da série **MegaMan**, trazendo informações como:
 
-<table align="center">
-  <tr>
-    <th>Method</th>
-    <th>Endpoint</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>GET</td>
-    <td>/api/v1/robots</td>
-    <td>Returns a list of all robots</td>
-  </tr>
-  <tr>
-    <td>GET</td>
-    <td>/api/v1/robots/{id}</td>
-    <td>Returns details of a specific robot by ID</td>
-  </tr>
-  <tr>
-    <td>POST</td>
-    <td>/api/v1/robots</td>
-    <td>Endpoint to create a new robot entry</td>
-  </tr>
-</table>
+- Código de Identificação
+- Nome do Boss
+- Pontos de Vida (HP)
+- Imagem ilustrativa
 
-## Techniques Used
+---
 
-<p align="center">
-  - <b>Entity Framework Core:</b> ORM for data management.<br />
-  - <b>RESTful API Design:</b> Ensures clear and effective communication
-  endpoints.<br />
-  - <b>Dependency Injection:</b> Used throughout to promote loose coupling and
-  enhanced testability.<br />
-</p>
+## 🛠️ Tecnologias Utilizadas
+- **Linguagem:** C# com **ASP.NET Core 3.1**
+- **Arquitetura:** RESTful
+- **Paradigma:** Programação Orientada a Objetos (POO)
+- **Técnicas:**
+    - Injeção de Dependência (Dependency Injection)
+    - Tratamento de erros com códigos HTTP apropriados
+    - Serialização e Desserialização de objetos JSON usando **Newtonsoft.Json**
+    - Separação de responsabilidades entre **Controller** e **Service**
 
-## Dependencies
+---
 
-<table align="center">
-  <tr>
-    <th>Package</th>
-    <th>Version</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td>Microsoft.EntityFrameworkCore</td>
-    <td>3.1.8</td>
-    <td>
-      <a
-        href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/3.1.8"
-        >NuGet</a
-      >
-    </td>
-  </tr>
-  <tr>
-    <td>Microsoft.EntityFrameworkCore.Design</td>
-    <td>3.1.8</td>
-    <td>
-      <a
-        href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/3.1.8"
-        >NuGet</a
-      >
-    </td>
-  </tr>
-  <tr>
-    <td>Microsoft.EntityFrameworkCore.SqlServer</td>
-    <td>3.1.8</td>
-    <td>
-      <a
-        href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/3.1.8"
-        >NuGet</a
-      >
-    </td>
-  </tr>
-  <tr>
-    <td>Newtonsoft.Json</td>
-    <td>12.0.2</td>
-    <td>
-      <a href="https://www.nuget.org/packages/Newtonsoft.Json/12.0.2">NuGet</a>
-    </td>
-  </tr>
-</table>
+## 📊 Tabela de Endpoints
 
-## :gear: Arch
+| Verbo HTTP | Endpoint               | Descrição                                           |
+|------------|------------------------|-----------------------------------------------------|
+| 🟢 GET     | `/api/v1/robots`       | Retorna a lista de todos os Bosses                  |
+| 🟢 GET     | `/api/v1/robots/{id}`  | Retorna os detalhes de um Boss específico            |
+| 🟠 POST    | `/api/v1/robots`       | Envia dados para cadastro de um novo Boss (em desenvolvimento) |
 
-```🌐
-src
-├── 📂 Controllers      [Routes for endpoints]
-├── 📂 Models           [Database models]
-├── 📂 Services         [Business rules]
-├── 📂 Middlewares      [Intermediate functions between the HTTP request and the final server response]
-├── 📂 Database         [Structures related to the database]
-│   ├── 📂 DTOs             [Input Models and View Models (Data Transfer Objects)]
-│   ├── 📂 EntityFramework  [Files related to the ORM Entity Framework]
-│   │     ├── 📂 Context         [Entity context settings]
-│   │     ├── 📂 Migrations      [Migrations for database updates]
-│   ├── 📂 Repositories     [Repository pattern]
+---
+
+## 📦 Dependências
+
+| Dependência                             | Versão  | Link Oficial |
+|-----------------------------------------|---------|--------------------------------------------------------------------------------------------------|
+| Microsoft.EntityFrameworkCore          | 3.1.8   | [🔗 EF Core](https://learn.microsoft.com/en-us/ef/core/)                                        |
+| Microsoft.EntityFrameworkCore.Design   | 3.1.8   | [🔗 EF Core Design](https://learn.microsoft.com/en-us/ef/core/)                                 |
+| Microsoft.EntityFrameworkCore.SqlServer | 3.1.8   | [🔗 EF Core SQL Server](https://learn.microsoft.com/en-us/ef/core/providers/sql-server/)        |
+| Newtonsoft.Json                        | 12.0.2  | [🔗 Newtonsoft.Json](https://www.newtonsoft.com/json)                                           |
+
+---
+
+## 💻 Exemplo de Utilização
+
+### ➡️ Buscar todos os Bosses - Endpoint: *GetAllRobots*
+**Requisição**
+```http
+GET /api/v1/robots HTTP/1.1
+Host: localhost:5000
 ```
 
-## License This software is licensed under the terms of the [MIT]
+**Resposta**
+```
+[
+    { 
+        "id": 1,
+        "code": "DLN/DRN-003",
+        "name": "Cutman",
+        "hp": 150,
+        "picture": "https://vignette.wikia.nocookie.net/megaman/images/2/22/Cutman.png"
+    },
+    { 
+        "id": 2,
+        "code": "112",
+        "name": "Gutman",
+        "hp": 150,
+        "picture": ""
+    },
+    { 
+        "id": 3,
+        "code": "112",
+        "name": "Iceman",
+        "hp": 150,
+        "picture": ""
+    }
+]
+```
+### ➡️ Buscar Boss por ID - Endpoint: *GetCommandById*
+**Requisição**
 
-⌨️ FelipeAguiar -
+```
+GET /api/v1/robots/1 HTTP/1.1
+Host: localhost:5000
+```
+
+**Resposta**
+
+```
+{
+    "id": 0,
+    "code": "112",
+    "name": "Cutman",
+    "hp": 150,
+    "picture": "https://vignette.wikia.nocookie.net/megaman/images/2/22/Cutman.png"
+}
+```
+**Quando o Boss não é encontrado**
+
+```
+{
+    "message": "Nenhum robo encontrado"
+}
+```
+
+## 📌 Observações
+- ✅ A API é inspirada no universo MegaMan.
+
+- ✅ O endpoint de POST ainda não possui implementação para cadastro real.
+
+- ✅ A estrutura pode ser facilmente adaptada para receber novos campos ou integração com banco de dados.
+## 👨‍💻 Autor
+- API - Desenvolvido por FelipeAguiar -
 [Github](https://github.com/felipeAguiarCode)
+
+- 🚀 Projeto de exemplo para consulta e gerenciamento de Bosses do MegaMan usando ASP.NET Core 3.1.
+
+## 📅 Versão
+- 1.0.0 - Inicial
+

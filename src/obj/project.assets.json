@@ -5467,24 +5467,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Felipe\\.nuget\\packages\\": {}
+    "C:\\Users\\ldias\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\records\\raw\\Documentação\\MegaApiDotnetCore\\src\\MegamanApi.csproj",
+      "projectUniqueName": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\MegamanApi.csproj",
       "projectName": "MegamanApi",
-      "projectPath": "C:\\records\\raw\\Documentação\\MegaApiDotnetCore\\src\\MegamanApi.csproj",
-      "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-      "outputPath": "C:\\records\\raw\\Documentação\\MegaApiDotnetCore\\src\\obj\\",
+      "projectPath": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\MegamanApi.csproj",
+      "packagesPath": "C:\\Users\\ldias\\.nuget\\packages\\",
+      "outputPath": "L:\\sources\\repos\\Curso IA DIO\\MegaApiDotnetCore\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ldias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5564,7 +5566,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
       }
     }
   },
